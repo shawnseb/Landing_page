@@ -50,7 +50,7 @@ li{
 button{
     background-color: blue;
     color: white;
-    font-weight: 100;
+    font-weight: bold;
     height: 40px;
 }
 .subtwo img{
@@ -58,7 +58,30 @@ button{
 }
 
 .sectiontwo{
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: #F5F5F5;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+.undertwo{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
 }
 .sectionthree{
     background-color: #4CAF50;
