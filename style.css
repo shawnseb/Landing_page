@@ -1,0 +1,40 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-flow: column;
+    
+}
+.sectionone{
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    
+    
+}
+.sectionone ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row; 
+    gap: 15px;
+
+}
+li{
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.sectiontwo{
+    background-color: #F5F5F5;
+}
+.sectionthree{
+    background-color: #4CAF50;
+}
+.sectionfour{
+    background-color: #F5F5F5;
+}
+.sectionfive{
+    background-color: #1E1E1E;
+}
