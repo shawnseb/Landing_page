@@ -12,7 +12,7 @@ body{
     color: white;
     padding-left: 200px;
     padding-right: 200px;
-    
+    padding-bottom: 50px;
     
 }
 .subone{
@@ -46,9 +46,10 @@ li{
     flex-flow: column;
     flex: 1 1 50%;
     padding: 30px;
+    justify-content: space-evenly;
 }
 button{
-    background-color: blue;
+    background-color: #4CAF50;
     color: white;
     font-weight: bold;
     height: 40px;
@@ -85,9 +86,17 @@ button{
 }
 .sectionthree{
     background-color: #4CAF50;
+    font-size: 30px;
+    display: flexbox;
+    flex-flow: column;
+}
+.sectionthree b{
+    font-size: 25px;
+    
 }
 .sectionfour{
     background-color: #F5F5F5;
+    
 }
 .sectionfive{
     background-color: #1E1E1E;
