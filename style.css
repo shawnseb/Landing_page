@@ -61,7 +61,7 @@ button{
 .sectiontwo{
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #F5F5F5;
+    background-color: beige;
     display: flex;
     flex-flow: column;
     gap: 30px;
@@ -79,6 +79,8 @@ button{
     align-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 30px;
+    font-weight:400;
 }
 .card img{
     width: 200px;
@@ -95,8 +97,40 @@ button{
     
 }
 .sectionfour{
-    background-color: #F5F5F5;
+    background-color: beige;
+    display: flex;
+
+}
+.compassfour{
+    flex: 1 1 100%;
+    display: flex;
+    margin: 100px 300px 100px 300px;
+    background-color: #4CAF50;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+}
+
+.compassfour button{
+    width: 300px;
+    border-color: white;
+    border-width: 5px;
+}
+
+.subfour{
+    display: flex;
+    flex-flow: column;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
+    
+}
+.subfour b{
+    font-size: larger;
 }
 .sectionfive{
     background-color: #1E1E1E;
